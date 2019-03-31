@@ -38,12 +38,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mdanter\\Ecc\\": "src/"
+            "Wangjunasd\\Ecc\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mdanter\\Ecc\\Tests\\": "tests/unit"
+            "Wangjunasd\\Ecc\\Tests\\": "tests/unit"
         }
     }
 }
