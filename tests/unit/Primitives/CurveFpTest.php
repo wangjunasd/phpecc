@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Primitives;
+namespace Wangjunasd\Ecc\Tests\Primitives;
 
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Math\GmpMath;
-use Mdanter\Ecc\Math\ModularArithmetic;
-use Mdanter\Ecc\Primitives\CurveFp;
-use Mdanter\Ecc\Primitives\CurveParameters;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Math\GmpMath;
+use Wangjunasd\Ecc\Math\ModularArithmetic;
+use Wangjunasd\Ecc\Primitives\CurveFp;
+use Wangjunasd\Ecc\Primitives\CurveParameters;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class CurveFpTest extends AbstractTestCase
 {

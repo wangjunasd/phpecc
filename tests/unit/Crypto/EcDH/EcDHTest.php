@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Crypto\EcDH;
+namespace Wangjunasd\Ecc\Tests\Crypto\EcDH;
 
-use Mdanter\Ecc\Crypto\EcDH\EcDH;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Exception\ExchangeException;
-use Mdanter\Ecc\Serializer\Point\UncompressedPointSerializer;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\EcDH\EcDH;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Exception\ExchangeException;
+use Wangjunasd\Ecc\Serializer\Point\UncompressedPointSerializer;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class EcDHTest extends AbstractTestCase
 {
     /**
-     * @expectedException \Mdanter\Ecc\Exception\ExchangeException
+     * @expectedException \Wangjunasd\Ecc\Exception\ExchangeException
      * @expectedExceptionMessage Sender key not set
      */
     public function testExceptionOnInvalidState()
@@ -23,7 +23,7 @@ class EcDHTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\ExchangeException
+     * @expectedException \Wangjunasd\Ecc\Exception\ExchangeException
      * @expectedExceptionMessage Recipient key not set
      */
     public function testExceptionOnInvalidState1()

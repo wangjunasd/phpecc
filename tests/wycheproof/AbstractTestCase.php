@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\WycheProof;
+namespace Wangjunasd\Ecc\WycheProof;
 
-use Mdanter\Ecc\Crypto\Signature\HasherInterface;
-use Mdanter\Ecc\Crypto\Signature\SignHasher;
-use Mdanter\Ecc\Curves\NistCurve;
-use Mdanter\Ecc\Curves\SecgCurve;
-use Mdanter\Ecc\Math\MathAdapterFactory;
+use Wangjunasd\Ecc\Crypto\Signature\HasherInterface;
+use Wangjunasd\Ecc\Crypto\Signature\SignHasher;
+use Wangjunasd\Ecc\Curves\NistCurve;
+use Wangjunasd\Ecc\Curves\SecgCurve;
+use Wangjunasd\Ecc\Math\MathAdapterFactory;
 use PHPUnit\Framework\TestCase;
 
 abstract class AbstractTestCase extends TestCase

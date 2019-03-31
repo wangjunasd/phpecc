@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Random;
+namespace Wangjunasd\Ecc\Tests\Random;
 
-use Mdanter\Ecc\Math\GmpMath;
-use Mdanter\Ecc\Primitives\CurveFp;
-use Mdanter\Ecc\Primitives\CurveParameters;
-use Mdanter\Ecc\Primitives\GeneratorPoint;
-use Mdanter\Ecc\Random\DebugDecorator;
-use Mdanter\Ecc\Random\RandomGeneratorFactory;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Math\GmpMath;
+use Wangjunasd\Ecc\Primitives\CurveFp;
+use Wangjunasd\Ecc\Primitives\CurveParameters;
+use Wangjunasd\Ecc\Primitives\GeneratorPoint;
+use Wangjunasd\Ecc\Random\DebugDecorator;
+use Wangjunasd\Ecc\Random\RandomGeneratorFactory;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class RandomGeneratorFactoryTest extends AbstractTestCase
 {

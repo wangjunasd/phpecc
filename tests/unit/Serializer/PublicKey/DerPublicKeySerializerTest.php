@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Serializer\PublicKey;
+namespace Wangjunasd\Ecc\Tests\Serializer\PublicKey;
 
 use FG\ASN1\Universal\BitString;
 use FG\ASN1\Universal\Integer;
 use FG\ASN1\Universal\ObjectIdentifier;
 use FG\ASN1\Universal\Sequence;
-use Mdanter\Ecc\Curves\CurveFactory;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Primitives\CurveFp;
-use Mdanter\Ecc\Primitives\CurveParameters;
-use Mdanter\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
-use Mdanter\Ecc\Serializer\Util\CurveOidMapper;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Curves\CurveFactory;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Primitives\CurveFp;
+use Wangjunasd\Ecc\Primitives\CurveParameters;
+use Wangjunasd\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
+use Wangjunasd\Ecc\Serializer\Util\CurveOidMapper;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class DerPublicKeySerializerTest extends AbstractTestCase
 {

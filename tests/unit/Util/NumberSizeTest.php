@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Util;
+namespace Wangjunasd\Ecc\Tests\Util;
 
-use Mdanter\Ecc\Math\GmpMathInterface;
-use Mdanter\Ecc\Tests\AbstractTestCase;
-use Mdanter\Ecc\Util\NumberSize;
+use Wangjunasd\Ecc\Math\GmpMathInterface;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Util\NumberSize;
 
 class NumberSizeTest extends AbstractTestCase
 {

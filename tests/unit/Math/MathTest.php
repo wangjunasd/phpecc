@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Math;
+namespace Wangjunasd\Ecc\Tests\Math;
 
-use Mdanter\Ecc\Math\GmpMath;
-use Mdanter\Ecc\Math\GmpMathInterface;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Math\GmpMath;
+use Wangjunasd\Ecc\Math\GmpMathInterface;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class MathTest extends AbstractTestCase
 {

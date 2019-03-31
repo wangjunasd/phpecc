@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Crypto\Key;
+namespace Wangjunasd\Ecc\Tests\Crypto\Key;
 
-use Mdanter\Ecc\Crypto\EcDH\EcDH;
-use Mdanter\Ecc\Crypto\Key\PublicKey;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Primitives\CurveFp;
-use Mdanter\Ecc\Primitives\GeneratorPoint;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\EcDH\EcDH;
+use Wangjunasd\Ecc\Crypto\Key\PublicKey;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Primitives\CurveFp;
+use Wangjunasd\Ecc\Primitives\GeneratorPoint;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class PrivateKeyTest extends AbstractTestCase
 {

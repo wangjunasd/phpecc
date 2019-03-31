@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Serializer\Point;
+namespace Wangjunasd\Ecc\Tests\Serializer\Point;
 
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Serializer\Point\CompressedPointSerializer;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Serializer\Point\CompressedPointSerializer;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class CompressedPointSerializerTest extends AbstractTestCase
 {

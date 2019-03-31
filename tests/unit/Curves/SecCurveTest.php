@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Curves;
+namespace Wangjunasd\Ecc\Tests\Curves;
 
-use Mdanter\Ecc\Math\GmpMathInterface;
-use Mdanter\Ecc\Primitives\CurveFpInterface;
-use Mdanter\Ecc\Primitives\GeneratorPoint;
-use Mdanter\Ecc\Primitives\PointInterface;
-use Mdanter\Ecc\Tests\AbstractTestCase;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Crypto\Signature\Signer;
-use Mdanter\Ecc\Random\RandomGeneratorFactory;
+use Wangjunasd\Ecc\Math\GmpMathInterface;
+use Wangjunasd\Ecc\Primitives\CurveFpInterface;
+use Wangjunasd\Ecc\Primitives\GeneratorPoint;
+use Wangjunasd\Ecc\Primitives\PointInterface;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Crypto\Signature\Signer;
+use Wangjunasd\Ecc\Random\RandomGeneratorFactory;
 
 class SecCurveTest extends AbstractTestCase
 {

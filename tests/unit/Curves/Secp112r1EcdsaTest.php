@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Curves;
+namespace Wangjunasd\Ecc\Tests\Curves;
 
-use Mdanter\Ecc\Crypto\Signature\SignHasher;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\Signature\SignHasher;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class Secp112r1EcdsaTest extends AbstractTestCase
 {
@@ -14,14 +14,14 @@ class Secp112r1EcdsaTest extends AbstractTestCase
         $expectedR = '1696427335541514286367855701829018';
         $expectedS = '1960761230049936699759766101723490';
 
-        $adapter = \Mdanter\Ecc\EccFactory::getAdapter();
-        $g = \Mdanter\Ecc\EccFactory::getSecgCurves()->generator112r1();
+        $adapter = \Wangjunasd\Ecc\EccFactory::getAdapter();
+        $g = \Wangjunasd\Ecc\EccFactory::getSecgCurves()->generator112r1();
 
         $key = gmp_init('deadbeef', 16);
         $priv = $g->getPrivateKeyFrom($key);
 
         $data = "foobar";
-        $signer = new \Mdanter\Ecc\Crypto\Signature\Signer($adapter);
+        $signer = new \Wangjunasd\Ecc\Crypto\Signature\Signer($adapter);
         $hasher = new SignHasher("sha1");
         $hash = $hasher->makeHash($data, $g);
         $randomK = gmp_init('12345', 10);

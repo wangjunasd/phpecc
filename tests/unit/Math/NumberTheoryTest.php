@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Math;
+namespace Wangjunasd\Ecc\Tests\Math;
 
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Math\GmpMath;
-use Mdanter\Ecc\Math\GmpMathInterface;
-use Mdanter\Ecc\Math\NumberTheory;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Math\GmpMath;
+use Wangjunasd\Ecc\Math\GmpMathInterface;
+use Wangjunasd\Ecc\Math\NumberTheory;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class NumberTheoryTest extends AbstractTestCase
 {
@@ -22,7 +22,7 @@ class NumberTheoryTest extends AbstractTestCase
     protected $sqrt_data;
 
     /**
-     * @var \Mdanter\Ecc\Primitives\GeneratorPoint
+     * @var \Wangjunasd\Ecc\Primitives\GeneratorPoint
      */
     protected $generator;
 
@@ -60,7 +60,7 @@ class NumberTheoryTest extends AbstractTestCase
 
     /**
      * @dataProvider getInvalidRootsProvider
-     * @expectedException \Mdanter\Ecc\Exception\SquareRootException
+     * @expectedException \Wangjunasd\Ecc\Exception\SquareRootException
      * @param string $a
      * @param string $p
      */

@@ -1,20 +1,20 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Crypto\Key;
+namespace Wangjunasd\Ecc\Tests\Crypto\Key;
 
-use Mdanter\Ecc\Crypto\Key\PublicKey;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Exception\PublicKeyException;
-use Mdanter\Ecc\Primitives\CurveFp;
-use Mdanter\Ecc\Primitives\GeneratorPoint;
-use Mdanter\Ecc\Primitives\Point;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\Key\PublicKey;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Exception\PublicKeyException;
+use Wangjunasd\Ecc\Primitives\CurveFp;
+use Wangjunasd\Ecc\Primitives\GeneratorPoint;
+use Wangjunasd\Ecc\Primitives\Point;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class PublicKeyTest extends AbstractTestCase
 {
     /**
-     * @expectedException \Mdanter\Ecc\Exception\PublicKeyException
+     * @expectedException \Wangjunasd\Ecc\Exception\PublicKeyException
      * @expectedExceptionMessage Point has x and y out of range
      */
     public function testBadPointForGenerator()
@@ -34,7 +34,7 @@ class PublicKeyTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\PublicKeyException
+     * @expectedException \Wangjunasd\Ecc\Exception\PublicKeyException
      * @expectedExceptionMessage Curve for given point not in common with GeneratorPoint
      */
     public function testPointGeneratorMismatch()

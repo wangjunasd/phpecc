@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Serializer\PublicKey;
+namespace Wangjunasd\Ecc\Tests\Serializer\PublicKey;
 
-use Mdanter\Ecc\Crypto\Key\PublicKey;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
-use Mdanter\Ecc\Serializer\PublicKey\PemPublicKeySerializer;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\Key\PublicKey;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
+use Wangjunasd\Ecc\Serializer\PublicKey\PemPublicKeySerializer;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class PemPublicKeySerializerTest extends AbstractTestCase
 {

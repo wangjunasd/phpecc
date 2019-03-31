@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Primitives;
+namespace Wangjunasd\Ecc\Tests\Primitives;
 
-use Mdanter\Ecc\Math\GmpMathInterface;
-use Mdanter\Ecc\Primitives\CurveParameters;
-use Mdanter\Ecc\Primitives\CurveFp;
-use Mdanter\Ecc\Primitives\CurveFpInterface;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Math\GmpMathInterface;
+use Wangjunasd\Ecc\Primitives\CurveParameters;
+use Wangjunasd\Ecc\Primitives\CurveFp;
+use Wangjunasd\Ecc\Primitives\CurveFpInterface;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class EcArithmeticTest extends AbstractTestCase
 {

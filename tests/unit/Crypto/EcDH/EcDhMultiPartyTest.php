@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Crypto\EcDH;
+namespace Wangjunasd\Ecc\Tests\Crypto\EcDH;
 
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class EcDhMultiPartyTest extends AbstractTestCase
 {

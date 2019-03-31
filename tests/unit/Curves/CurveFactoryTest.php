@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Curves;
+namespace Wangjunasd\Ecc\Tests\Curves;
 
-use Mdanter\Ecc\Curves\CurveFactory;
-use Mdanter\Ecc\Curves\NistCurve;
-use Mdanter\Ecc\Curves\SecgCurve;
-use Mdanter\Ecc\Exception\UnsupportedCurveException;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Curves\CurveFactory;
+use Wangjunasd\Ecc\Curves\NistCurve;
+use Wangjunasd\Ecc\Curves\SecgCurve;
+use Wangjunasd\Ecc\Exception\UnsupportedCurveException;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class CurveFactoryTest extends AbstractTestCase
 {
@@ -40,7 +40,7 @@ class CurveFactoryTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\UnsupportedCurveException
+     * @expectedException \Wangjunasd\Ecc\Exception\UnsupportedCurveException
      * @expectedExceptionMessage Unknown curve.
      */
     public function testFailsOnUnknownCurve()
@@ -56,7 +56,7 @@ class CurveFactoryTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\UnsupportedCurveException
+     * @expectedException \Wangjunasd\Ecc\Exception\UnsupportedCurveException
      * @expectedExceptionMessage Unknown generator.
      */
     public function testFailsOnUnknownGenerator()

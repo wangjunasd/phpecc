@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Serializer\PrivateKey;
+namespace Wangjunasd\Ecc\Tests\Serializer\PrivateKey;
 
 use FG\ASN1\ExplicitlyTaggedObject;
 use FG\ASN1\Universal\BitString;
 use FG\ASN1\Universal\Integer;
 use FG\ASN1\Universal\OctetString;
 use FG\ASN1\Universal\Sequence;
-use Mdanter\Ecc\Crypto\Key\PrivateKey;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Serializer\PrivateKey\DerPrivateKeySerializer;
-use Mdanter\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
-use Mdanter\Ecc\Serializer\Util\CurveOidMapper;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\Key\PrivateKey;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Serializer\PrivateKey\DerPrivateKeySerializer;
+use Wangjunasd\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
+use Wangjunasd\Ecc\Serializer\Util\CurveOidMapper;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class DerPrivateKeySerializerTest extends AbstractTestCase
 {

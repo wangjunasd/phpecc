@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Primitives;
+namespace Wangjunasd\Ecc\Tests\Primitives;
 
-use Mdanter\Ecc\Primitives\CurveParameters;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Primitives\CurveParameters;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class CurveParametersTest extends AbstractTestCase
 {

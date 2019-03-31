@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\WycheProof;
+namespace Wangjunasd\Ecc\WycheProof;
 
 use FG\ASN1\Exception\ParserException;
-use Mdanter\Ecc\Crypto\Key\PublicKey;
-use Mdanter\Ecc\Crypto\Signature\HasherInterface;
-use Mdanter\Ecc\Crypto\Signature\SignatureInterface;
-use Mdanter\Ecc\Crypto\Signature\Signer;
-use Mdanter\Ecc\Curves\CurveFactory;
-use Mdanter\Ecc\Exception\SignatureDecodeException;
-use Mdanter\Ecc\Primitives\GeneratorPoint;
-use Mdanter\Ecc\Serializer\Signature\DerSignatureSerializer;
+use Wangjunasd\Ecc\Crypto\Key\PublicKey;
+use Wangjunasd\Ecc\Crypto\Signature\HasherInterface;
+use Wangjunasd\Ecc\Crypto\Signature\SignatureInterface;
+use Wangjunasd\Ecc\Crypto\Signature\Signer;
+use Wangjunasd\Ecc\Curves\CurveFactory;
+use Wangjunasd\Ecc\Exception\SignatureDecodeException;
+use Wangjunasd\Ecc\Primitives\GeneratorPoint;
+use Wangjunasd\Ecc\Serializer\Signature\DerSignatureSerializer;
 
 class EcdsaTest extends AbstractTestCase
 {

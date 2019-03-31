@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests;
+namespace Wangjunasd\Ecc\Tests;
 
-use Mdanter\Ecc\Math\GmpMathInterface;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Crypto\Signature\Signature;
-use Mdanter\Ecc\Crypto\Signature\Signer;
-use Mdanter\Ecc\Random\RandomGeneratorFactory;
-use Mdanter\Ecc\Random\RandomNumberGeneratorInterface;
+use Wangjunasd\Ecc\Math\GmpMathInterface;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Crypto\Signature\Signature;
+use Wangjunasd\Ecc\Crypto\Signature\Signer;
+use Wangjunasd\Ecc\Random\RandomGeneratorFactory;
+use Wangjunasd\Ecc\Random\RandomNumberGeneratorInterface;
 
 class NistCurveTest extends AbstractTestCase
 {

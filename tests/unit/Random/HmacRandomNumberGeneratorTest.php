@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Random;
+namespace Wangjunasd\Ecc\Tests\Random;
 
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Crypto\Key\PrivateKey;
-use Mdanter\Ecc\Random\HmacRandomNumberGenerator;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Crypto\Key\PrivateKey;
+use Wangjunasd\Ecc\Random\HmacRandomNumberGenerator;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class HmacRandomNumberGeneratorTest extends AbstractTestCase
 {

@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Curves;
+namespace Wangjunasd\Ecc\Tests\Curves;
 
-use Mdanter\Ecc\Curves\NamedCurveFp;
-use Mdanter\Ecc\Curves\NistCurve;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Curves\NamedCurveFp;
+use Wangjunasd\Ecc\Curves\NistCurve;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class NamedCurveFpTest extends AbstractTestCase
 {

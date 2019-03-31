@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Curves;
+namespace Wangjunasd\Ecc\Tests\Curves;
 
-use Mdanter\Ecc\Crypto\Signature\Signature;
-use Mdanter\Ecc\Crypto\Signature\SignHasher;
-use Mdanter\Ecc\Random\RandomGeneratorFactory;
-use Mdanter\Ecc\Random\RandomNumberGeneratorInterface;
-use Mdanter\Ecc\Serializer\Point\CompressedPointSerializer;
-use Mdanter\Ecc\Serializer\Point\UncompressedPointSerializer;
-use Mdanter\Ecc\Tests\AbstractTestCase;
-use Mdanter\Ecc\Primitives\GeneratorPoint;
+use Wangjunasd\Ecc\Crypto\Signature\Signature;
+use Wangjunasd\Ecc\Crypto\Signature\SignHasher;
+use Wangjunasd\Ecc\Random\RandomGeneratorFactory;
+use Wangjunasd\Ecc\Random\RandomNumberGeneratorInterface;
+use Wangjunasd\Ecc\Serializer\Point\CompressedPointSerializer;
+use Wangjunasd\Ecc\Serializer\Point\UncompressedPointSerializer;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Primitives\GeneratorPoint;
 use Symfony\Component\Yaml\Yaml;
-use Mdanter\Ecc\Curves\CurveFactory;
-use Mdanter\Ecc\Crypto\Signature\Signer;
+use Wangjunasd\Ecc\Curves\CurveFactory;
+use Wangjunasd\Ecc\Crypto\Signature\Signer;
 
 class SpecBasedCurveTest extends AbstractTestCase
 {

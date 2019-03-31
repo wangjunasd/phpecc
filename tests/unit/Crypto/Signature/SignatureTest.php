@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Crypto\Signature;
+namespace Wangjunasd\Ecc\Tests\Crypto\Signature;
 
-use Mdanter\Ecc\Crypto\Signature\Signature;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\Signature\Signature;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class SignatureTest extends AbstractTestCase
 {

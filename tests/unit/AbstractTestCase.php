@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests;
+namespace Wangjunasd\Ecc\Tests;
 
-use Mdanter\Ecc\Math\MathAdapterFactory;
+use Wangjunasd\Ecc\Math\MathAdapterFactory;
 use PHPUnit\Framework\TestCase;
 
 abstract class AbstractTestCase extends TestCase

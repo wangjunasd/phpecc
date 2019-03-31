@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Serializer\Util;
+namespace Wangjunasd\Ecc\Tests\Serializer\Util;
 
 use FG\ASN1\Universal\ObjectIdentifier;
-use Mdanter\Ecc\Curves\NamedCurveFp;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Primitives\CurveParameters;
-use Mdanter\Ecc\Serializer\Util\CurveOidMapper;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Curves\NamedCurveFp;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Primitives\CurveParameters;
+use Wangjunasd\Ecc\Serializer\Util\CurveOidMapper;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class CurveOidMapperTest extends AbstractTestCase
 {
@@ -33,7 +33,7 @@ class CurveOidMapperTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\UnsupportedCurveException
+     * @expectedException \Wangjunasd\Ecc\Exception\UnsupportedCurveException
      */
     public function testGetBytesUnknownCurve()
     {
@@ -43,7 +43,7 @@ class CurveOidMapperTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\UnsupportedCurveException
+     * @expectedException \Wangjunasd\Ecc\Exception\UnsupportedCurveException
      */
     public function testGetCurveOid()
     {
@@ -53,7 +53,7 @@ class CurveOidMapperTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\UnsupportedCurveException
+     * @expectedException \Wangjunasd\Ecc\Exception\UnsupportedCurveException
      */
     public function testCurveUnknownOid()
     {
@@ -62,7 +62,7 @@ class CurveOidMapperTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\UnsupportedCurveException
+     * @expectedException \Wangjunasd\Ecc\Exception\UnsupportedCurveException
      */
     public function testGeneratorUnknownOid()
     {

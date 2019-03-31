@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Serializer\Signature;
+namespace Wangjunasd\Ecc\Tests\Serializer\Signature;
 
 use FG\ASN1\Universal\BitString;
 use FG\ASN1\Universal\Sequence;
-use Mdanter\Ecc\Crypto\Signature\Signature;
-use Mdanter\Ecc\Math\GmpMath;
-use Mdanter\Ecc\Random\RandomGeneratorFactory;
-use Mdanter\Ecc\Serializer\Signature\DerSignatureSerializer;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\Signature\Signature;
+use Wangjunasd\Ecc\Math\GmpMath;
+use Wangjunasd\Ecc\Random\RandomGeneratorFactory;
+use Wangjunasd\Ecc\Serializer\Signature\DerSignatureSerializer;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class DerSignatureSerializerTest extends AbstractTestCase
 {
@@ -25,7 +25,7 @@ class DerSignatureSerializerTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\SignatureDecodeException
+     * @expectedException \Wangjunasd\Ecc\Exception\SignatureDecodeException
      * @expectedExceptionMessage Invalid tag for sequence.
      */
     public function testInvalidASN1()
@@ -38,7 +38,7 @@ class DerSignatureSerializerTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\SignatureDecodeException
+     * @expectedException \Wangjunasd\Ecc\Exception\SignatureDecodeException
      * @expectedExceptionMessage Invalid data.
      */
     public function testInvalidASN2()
@@ -51,7 +51,7 @@ class DerSignatureSerializerTest extends AbstractTestCase
     }
     
     /**
-     * @expectedException \Mdanter\Ecc\Exception\SignatureDecodeException
+     * @expectedException \Wangjunasd\Ecc\Exception\SignatureDecodeException
      * @expectedExceptionMessage Invalid data.
      */
     public function testInvalidASN3()
@@ -67,7 +67,7 @@ class DerSignatureSerializerTest extends AbstractTestCase
     }
 
     /**
-     * @expectedException \Mdanter\Ecc\Exception\SignatureDecodeException
+     * @expectedException \Wangjunasd\Ecc\Exception\SignatureDecodeException
      * @expectedExceptionMessage Invalid data.
      */
     public function testInvalidASN4()

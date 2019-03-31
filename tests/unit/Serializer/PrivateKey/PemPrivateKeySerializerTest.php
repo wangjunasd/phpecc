@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\Tests\Serializer\PrivateKey;
+namespace Wangjunasd\Ecc\Tests\Serializer\PrivateKey;
 
-use Mdanter\Ecc\Crypto\Key\PrivateKey;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Serializer\PrivateKey\DerPrivateKeySerializer;
-use Mdanter\Ecc\Serializer\PrivateKey\PemPrivateKeySerializer;
-use Mdanter\Ecc\Tests\AbstractTestCase;
+use Wangjunasd\Ecc\Crypto\Key\PrivateKey;
+use Wangjunasd\Ecc\EccFactory;
+use Wangjunasd\Ecc\Serializer\PrivateKey\DerPrivateKeySerializer;
+use Wangjunasd\Ecc\Serializer\PrivateKey\PemPrivateKeySerializer;
+use Wangjunasd\Ecc\Tests\AbstractTestCase;
 
 class PemPrivateKeySerializerTest extends AbstractTestCase
 {

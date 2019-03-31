@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Mdanter\Ecc\WycheProof;
+namespace Wangjunasd\Ecc\WycheProof;
 
 use FG\ASN1\Exception\ParserException;
-use Mdanter\Ecc\Curves\CurveFactory;
-use Mdanter\Ecc\Curves\NistCurve;
-use Mdanter\Ecc\Exception\ExchangeException;
-use Mdanter\Ecc\Exception\PointNotOnCurveException;
-use Mdanter\Ecc\Exception\PointRecoveryException;
-use Mdanter\Ecc\Exception\UnsupportedCurveException;
-use Mdanter\Ecc\Math\GmpMath;
-use Mdanter\Ecc\Serializer\Point\CompressedPointSerializer;
-use Mdanter\Ecc\Serializer\Point\UncompressedPointSerializer;
-use Mdanter\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
+use Wangjunasd\Ecc\Curves\CurveFactory;
+use Wangjunasd\Ecc\Curves\NistCurve;
+use Wangjunasd\Ecc\Exception\ExchangeException;
+use Wangjunasd\Ecc\Exception\PointNotOnCurveException;
+use Wangjunasd\Ecc\Exception\PointRecoveryException;
+use Wangjunasd\Ecc\Exception\UnsupportedCurveException;
+use Wangjunasd\Ecc\Math\GmpMath;
+use Wangjunasd\Ecc\Serializer\Point\CompressedPointSerializer;
+use Wangjunasd\Ecc\Serializer\Point\UncompressedPointSerializer;
+use Wangjunasd\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
 
 class EcdhTest extends AbstractTestCase
 {
